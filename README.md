@@ -1,6 +1,6 @@
 # resnet-image-captioning
 show attention and tell with resnet  
-Adapted from [show attend and tell](https://github.com/yunjey/show-attend-and-tell), replace VGG to resnet, and can be trained together with LSTM. resnet codes are borrowed and adapted from [models/official/resnet/](https://github.com/tensorflow/models/tree/master/official/resnet)  
+Adapted from [show attend and tell](https://github.com/yunjey/show-attend-and-tell), replace VGG with resnet, and can be trained together with LSTM. resnet codes are borrowed and adapted from [models/official/resnet/](https://github.com/tensorflow/models/tree/master/official/resnet)  
 Use the output of block_layer3 in resnet50 as image features, get result in   
 val set:  
 > Bleu_1: 0.660386  
